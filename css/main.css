@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+a { color: #000; text-decoration: none; }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; border: 0 none; width: 100%; }
+address, caption, em { font-weight: normal; font-style: normal; }
+caption, legend, hr { display: none; }
+fieldset, img, input, select, textarea { border: 0 none; outline: none; } 
+input, select, textarea { vertical-align: middle; }
+body { line-height: 1.5; font-size: 16px;}
+
+/* line-height 없애기  */
+img { vertical-align: top; }
+
+/* .ob { background: linear-gradient(180deg, #081b23, #3d5666)} */
+.inner { max-width: calc(100% - 200px); margin: 0 auto; }
+
+@media (max-width : 1600px) {
+    .inner { max-width:calc(100% - 160px) ;}
+}
+@media (max-width : 1400px) {
+    .inner { max-width:calc(100% - 140px) ;}
+}
+@media (max-width : 1200px) {
+    .inner { max-width:calc(100% - 120px) ;}
+}
+@media (max-width : 1000px) {
+    .inner { max-width:calc(100% - 100px) ;}
+}
+@media (max-width : 768px) {
+    .inner { max-width:calc(100% - 80px) ;}
+}
+@media (max-width : 500px) {
+    .inner { max-width:calc(100% - 40px) ;}
+}
+
+
+#fh5co-header {  width: 100%; margin-top: 40px;}
+#fh5co-header .container { width: 90%; padding: 0; margin-left: auto; margin-right: auto;}
+#fh5co-header .navbar-brand { opacity: 0;}
+
+
+
+
+#fh5co-home { background: linear-gradient(to bottom,#0c2734,#203d51,#081c26); width: 100%; height: 1050px;}
+#fh5co-home .row { margin: 0;}
+#fh5co-home .container { width: 100%; padding: 0;}
+#fh5co-home img { width: 100%; position: absolute; top: 0;}
+
+@media (max-width: 1600px) {
+    #fh5co-home { height: 980px;}
+}
+@media (max-width: 1400px) {
+    #fh5co-home { height: 850px;}
+}
+@media (max-width: 1200px) {
+    #fh5co-home { height: 750px;}
+}
+@media (max-width: 900px) {
+    #fh5co-home { height: 550px;}
+}
+@media (max-width: 700px) {
+    #fh5co-home { height: 420px;}
+}
+@media (max-width: 500px) {
+    #fh5co-home { height: 310px;}
+}
+
+#fh5co-work { background: #0b1d27; padding: 150px 0;}
+#fh5co-work img { height: 300px; width: 100%;}
+#fh5co-work .fh5co-text1 { padding: 20px 20px;}
+
+#fh5co-work .fh5co-text1 span { color: #b3b3b3; font-weight: 400;}
+
+#fh5co-about .fh5co-person h3 { padding: 10px 0;}
+
+
+#fh5co-counters { background: linear-gradient(to bottom,#355d72,#91c6e1)}
+.fh5co-counter { margin-bottom: 50px;}
+.fh5co-counter .fh5co-counter-icon { opacity: 0.5;}
